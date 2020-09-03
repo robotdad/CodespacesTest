@@ -1,0 +1,9 @@
+{
+    "cmake.buildToolArgs": ["-v"],
+    "cmake.buildDirectory": "${workspaceRoot}/out/${buildType}-${command:azuresphere.AzureSphereTargetApiSet}",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "${command:azuresphere.AzureSphereSdkDir}/CMakeFiles/AzureSphereToolchain.cmake",
+        "AZURE_SPHERE_TARGET_API_SET": "latest-lts"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
